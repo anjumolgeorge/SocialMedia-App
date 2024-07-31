@@ -1,0 +1,261 @@
+
+
+body {
+  background-color: black;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+.flex {
+  display: flex;
+}
+
+.bg-black {
+  background-color: black;
+}
+
+.h-screen {
+  height: 100vh;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.max-w-4xl {
+  max-width: 64rem;
+}
+
+.mt-4 {
+  margin-top: 1rem;
+}
+
+.mt-8 {
+  margin-top: 2rem;
+}
+
+.relative {
+  position: relative;
+}
+
+.border {
+  border-width: 1px;
+}
+
+.border-gray-300 {
+  border-color: #D1D5DB;
+}
+
+.h-10 {
+  height: 2.5rem;
+}
+
+.w-10 {
+  width: 2.5rem;
+}
+
+.rounded-full {
+  border-radius: 9999px;
+}
+
+.ml-5 {
+  margin-left: 1.25rem;
+}
+
+.mt-5 {
+  margin-top: 1.25rem;
+}
+
+.border-white {
+  border-color: white;
+}
+
+.ml-20 {
+  margin-left: 5rem;
+}
+
+.-mt-7 {
+  margin-top: -1.75rem;
+}
+
+.text-white {
+  color: white;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.top-5 {
+  top: 1.25rem;
+}
+
+.right-5 {
+  right: 1.25rem;
+}
+
+.w-7 {
+  width: 1.75rem;
+}
+
+.h-7 {
+  height: 1.75rem;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.mt-2 {
+  margin-top: 0.5rem;
+}
+
+.bg-white {
+  background-color: white;
+}
+
+.rounded-md {
+  border-radius: 0.375rem;
+}
+
+.shadow-lg {
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -4px rgba(0, 0, 0, 0.1);
+}
+
+.z-10 {
+  z-index: 10;
+}
+
+.py-1 {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.text-sm {
+  font-size: 0.875rem;
+}
+
+.text-gray-700 {
+  color: #4B5563;
+}
+
+.hover\:bg-gray-100:hover {
+  background-color: #F3F4F6;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.border-gray-300 {
+  border-color: #D1D5DB;
+}
+
+.mt-12 {
+  margin-top: 3rem;
+}
+
+.ml-32 {
+  margin-left: 8rem;
+}
+
+.mr-52 {
+  margin-right: 13rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.h-96 {
+  height: 24rem;
+}
+
+.text-gray-500 {
+  color: #6B7280;
+}
+
+.mt-3 {
+  margin-top: 0.75rem;
+}
+
+.ml-32 {
+  margin-left: 8rem;
+}
+
+.ml-44 {
+  margin-left: 11rem;
+}
+
+.mt-\[-1\.7rem\] {
+  margin-top: -1.7rem;
+}
+.comment-input {
+  color: #172554 ;
+}
+
+
+
+.like-button {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.like-button:hover {
+  transform: scale(1.1);
+}
+
+.like-button.liked .heart-icon {
+  color: #ff4757; /* Red color for liked state */
+}
+
+.like-button .heart-icon {
+  color: #aaa; /* Gray color for unliked state */
+  transition: color 0.3s ease;
+}
+
+.like-button .heart-icon.liked {
+  animation: likeAnimation 0.3s ease;
+}
+
+@keyframes likeAnimation {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.like-count {
+  margin-left: 8px;
+  color: #fff; /* White color for like count */
+  font-size: 1rem;
+}

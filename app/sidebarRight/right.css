@@ -1,0 +1,9 @@
+.bgc-img1{
+    background-image:url('/zendiya.jpg');
+
+}
+.bgc-cover-center{
+    background-size:"cover";
+    background-position:"center";
+   
+}

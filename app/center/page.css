@@ -1,0 +1,39 @@
+.background-cover-center {
+    background-size: cover;
+    background-position: center;
+ }
+ 
+ .background-bike {
+    background-image: url('/bike.jpg');
+ } 
+ 
+ .background-emma {
+    background-image: url('/Emma.webp');
+ }
+ 
+ .background-smith {
+    background-image: url('/smith.webp');
+ }
+ 
+ .background-angelina {
+    background-image: url('/angelina.webp');
+ }
+ 
+ .background-bestcar {
+    background-image: url('/bestcar.jpeg');
+ }
+ 
+ .background-familiee {
+    background-image: url('/familiee.jpg');
+ }
+ 
+ .bg-white-rounded-lg {
+    background-color: white;
+    border-radius: 0.5rem;
+    padding: 1rem;
+ }
+ .cus-box {
+    border: 1px solid gray;
+    box-shadow: 0px 0px 10px white;
+ }
+ 
